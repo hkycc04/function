@@ -15,7 +15,17 @@ def say_hi():
 
 # say_hi()
 
-def add(x=1, y=1):
-	print(x + y)
+def add(x, y):
+	return x + y
 
-add(y=5)
+result = add(3, 4)
+print(result)
+
+
+def average(numbers):
+	avg = sum(numbers) / len(numbers)
+	return avg 
+
+a = average([1, 2, 3])
+print(a)
+
